@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+	margin-top: 2%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	background: #ededa4;
+}
+
+.bn3637 {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.7rem 2rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	backface-visibility: hidden;
+	border: 0.3rem solid transparent;
+	border-radius: 3rem;
+}
+
+.bn37 {
+	border-color: transparent;
+	background-color: #fff;
+	color: #000;
+	transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+.bn37:hover {
+	transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+img {
+	position: relative;
+	max-width: 50%;
+	left: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+figure {
+	padding: 4px;
+	margin: auto;
+}
+
+figcaption {
+	position: relative;
+	max-width: 70%;
+	padding: 2px;
+	left: 25%;
+}
+
+.wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+::placeholder {
+	color: #000;
+}
+
+::-webkit-input-placeholder {
+	color: #000;
+}
+
+:-ms-input-placeholder {
+	color: #000;
+}
