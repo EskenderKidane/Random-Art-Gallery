@@ -1,7 +1,7 @@
 import project
 from flask import Flask, render_template, request
 
-app = Flask(__name__, template_folder='.') # tells flask to look for HTML at the root directory
+app = Flask(__name__, template_folder='') # tells flask to look for HTML at the root directory
 
 
 @app.route('/', methods=['POST', 'GET'])
