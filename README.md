@@ -1,11 +1,7 @@
 # Random Art Gallery
-#### Video Demo:  https://youtu.be/lSsN9PHzKMk
+#### Try it: https://gallery-for-random-art.herokuapp.com/
+
 #### Description: A python program that will return a random artwork using Art Institute of Chicago API. The artwork and its details is then displayed in a simple webpage.
-
-&nbsp;
-
-#### Try it:
-- https://gallery-for-random-art.herokuapp.com/
 
 &nbsp;
 
