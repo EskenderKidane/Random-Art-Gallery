@@ -1,5 +1,5 @@
 import project
-from flask import Flask, render_template, request
+from flask import Flask, render_template
 
 app = Flask(__name__, template_folder='') # tells flask to look for HTML at the root directory
 
